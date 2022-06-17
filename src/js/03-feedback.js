@@ -16,8 +16,6 @@ function onFromSubmit(evt) {
     console.log(formData);
     evt.currentTarget.reset();
     localStorage.removeItem(STORAGE_KEY);
-    formData.email = '';
-    formData.message = '';
 }
 
 function onInput(evt) {
